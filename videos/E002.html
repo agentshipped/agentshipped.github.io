@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One git hook blocked a fake GitHub token, so no secret hit history #Shorts · Agent Shipped</title>
+<meta name="description" content="One gitleaks pre-commit hook blocked a fake GitHub token commit, so no secrets reached git history.">
+<style>
+  :root { --bg:#0f1115; --fg:#e6e6e6; --muted:#9aa0a6; --accent:#7cc4ff; --card:#181b22; }
+  @media (prefers-color-scheme: light) { :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#5f6368; --accent:#0b57d0; --card:#f3f4f6; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:1.7rem; margin:0 0 8px; line-height:1.25; }
+  .meta, footer { color:var(--muted); font-size:.92rem; }
+  a { color:var(--accent); }
+  .video { position:relative; padding-top:56.25%; margin:20px 0; background:#000; border-radius:12px; overflow:hidden; }
+  .video.short { max-width:360px; padding-top:0; height:640px; margin-left:auto; margin-right:auto; }
+  .video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .card { background:var(--card); border-radius:12px; padding:16px 20px; margin:20px 0; }
+  ul.videos { list-style:none; padding:0; } ul.videos li { padding:12px 0; border-bottom:1px solid var(--card); }
+  .tag { display:inline-block; font-size:.8rem; padding:1px 8px; border-radius:999px; background:var(--card); color:var(--muted); margin-right:8px; }
+  pre { white-space:pre-wrap; font:inherit; margin:0; }
+  footer { margin-top:40px; }
+</style>
+</head>
+<body>
+<main>
+<p class="meta"><a href="../">Agent Shipped</a> · <a href="./">All videos</a></p>
+<h1>One git hook blocked a fake GitHub token, so no secret hit history #Shorts</h1>
+<p class="meta">E002 · Short · 02 Nov 2026</p>
+<div class="video short"><iframe src="https://www.youtube.com/embed/8xQ3gWhe1fQ" title="One git hook blocked a fake GitHub token, so no secret hit history #Shorts" allowfullscreen loading="lazy"></iframe></div>
+<p><a href="https://youtu.be/8xQ3gWhe1fQ">Watch on YouTube</a> · <a href="https://github.com/agentshipped/notes-api">Demo repo (notes-api)</a></p>
+<div class="card"><pre>One gitleaks pre-commit hook blocked a fake GitHub token commit, so no secrets reached git history.
+Demo repo (agentshipped/notes-api): https://github.com/agentshipped/notes-api
+
+Claude Code writes a hook that scans only staged changes and lives in a tracked .githooks folder, so every clone gets the same protection.
+I stage a fake token generated with openssl, try to commit it, and gitleaks aborts the commit with a non-zero exit code.
+You can copy the hook and run the same test on your own repo with a fake key.
+Not just JavaScript: the same technique works with the pre-commit framework instead of .githooks, or Husky in other JavaScript repos, running gitleaks in either.
+Tools: Claude Code, gitleaks, git hooks, openssl</pre></div>
+
+<footer>Techniques from my real projects, shown on a public demo repo.<br>Narration: AI voice. The sessions, code and errors are real. Not affiliated with Anthropic or any tool vendor.<br><a href="../privacy.html">Privacy</a> · <a href="https://www.youtube.com/@AgentShipped">YouTube</a></footer>
+</main>
+</body>
+</html>
