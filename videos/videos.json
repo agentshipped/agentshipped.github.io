@@ -1,0 +1,14 @@
+[
+ {
+  "episode": "E002",
+  "video_id": "8xQ3gWhe1fQ",
+  "title": "One git hook blocked a fake GitHub token, so no secret hit history #Shorts",
+  "format": "short",
+  "published": "2026-11-02",
+  "first_line": "One gitleaks pre-commit hook blocked a fake GitHub token commit, so no secrets reached git history.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same technique with the pre-commit framework instead of .githooks, or Husky in other JavaScript repos, running gitleaks in either.",
+  "page": "videos/E002.html"
+ }
+]
