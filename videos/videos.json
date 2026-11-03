@@ -10,5 +10,17 @@
   "demo_repo_url": "https://github.com/agentshipped/notes-api",
   "portability": "Same technique with the pre-commit framework instead of .githooks, or Husky in other JavaScript repos, running gitleaks in either.",
   "page": "videos/E002.html"
+ },
+ {
+  "episode": "E001",
+  "video_id": "t9Ek80jnkV0",
+  "title": "Claude Code invented one endpoint shape. A 3-line rule fixed it #Shorts",
+  "format": "short",
+  "published": "2026-11-03",
+  "first_line": "Claude Code invented one endpoint shape without a rule; a three-line CLAUDE.md rule made it ask first and write zero lines.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Put the same three lines in AGENTS.md for Codex-style agents or in .cursorrules for Cursor instead of CLAUDE.md.",
+  "page": "videos/E001.html"
  }
 ]
