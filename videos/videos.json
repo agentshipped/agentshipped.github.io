@@ -35,5 +35,18 @@
   "portability": "Same technique on another stack: pytest instead of node --test, and go test with Go's testing package, both driven by the written contract and a no-weakening rule.",
   "page": "videos/E003.html",
   "article_url": "https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg"
+ },
+ {
+  "episode": "E010",
+  "video_id": "l1spi9ot4FU",
+  "title": "I don't trust an agent's restart. I trust a counter going up by one #Shorts",
+  "format": "short",
+  "published": "2026-11-05",
+  "first_line": "A fake server restart is caught by a counter that must go up by exactly one.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same technique with a Flask app and pytest instead of Express and a shell script, or a Go service and go test instead of node.",
+  "page": "videos/E010.html",
+  "article_url": ""
  }
 ]
