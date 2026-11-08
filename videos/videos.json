@@ -9,7 +9,8 @@
   "repo": "notes-api",
   "demo_repo_url": "https://github.com/agentshipped/notes-api",
   "portability": "Same technique with the pre-commit framework instead of .githooks, or Husky in other JavaScript repos, running gitleaks in either.",
-  "page": "videos/E002.html"
+  "page": "videos/E002.html",
+  "article_url": ""
  },
  {
   "episode": "E001",
@@ -21,20 +22,8 @@
   "repo": "notes-api",
   "demo_repo_url": "https://github.com/agentshipped/notes-api",
   "portability": "Put the same three lines in AGENTS.md for Codex-style agents or in .cursorrules for Cursor instead of CLAUDE.md.",
-  "page": "videos/E001.html"
- },
- {
-  "episode": "E003",
-  "video_id": "vjfrORiDoG0",
-  "title": "From no tests to a passing suite in two prompts, with Claude Code",
-  "format": "long",
-  "published": "2026-11-04",
-  "first_line": "Watch two prompts take an untested Express API from no tests to a passing node:test suite, checked against the README.",
-  "repo": "notes-api",
-  "demo_repo_url": "https://github.com/agentshipped/notes-api",
-  "portability": "Same technique on another stack: pytest instead of node --test, and go test with Go's testing package, both driven by the written contract and a no-weakening rule.",
-  "page": "videos/E003.html",
-  "article_url": "https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg"
+  "page": "videos/E001.html",
+  "article_url": ""
  },
  {
   "episode": "E010",
@@ -61,5 +50,18 @@
   "portability": "Same brief template, pytest instead of node --test, and a scoped Cursor rules file instead of a Claude subagent.",
   "page": "videos/E007.html",
   "article_url": ""
+ },
+ {
+  "episode": "E003",
+  "video_id": "lSzonRoE2ok",
+  "title": "I let Claude Code test my Express API, then ran it myself three times",
+  "format": "long",
+  "published": "2026-11-08",
+  "first_line": "Watch one prompt take an untested Express API from zero tests to a passing node:test suite, with test count, failures and duration_ms on screen.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same technique on another stack: pytest instead of node --test, and go test with Go's testing package, both driven by the written contract and a no-weakening rule.",
+  "page": "videos/E003.html",
+  "article_url": "https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg"
  }
 ]
