@@ -48,5 +48,18 @@
   "portability": "Same technique with a Flask app and pytest instead of Express and a shell script, or a Go service and go test instead of node.",
   "page": "videos/E010.html",
   "article_url": ""
+ },
+ {
+  "episode": "E007",
+  "video_id": "qoobDT2fCYE",
+  "title": "My subagent stopped halfway. One missing path was why #Shorts",
+  "format": "short",
+  "published": "2026-11-07",
+  "first_line": "My subagent stopped halfway because the test file sat outside its path scope.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "Same brief template, pytest instead of node --test, and a scoped Cursor rules file instead of a Claude subagent.",
+  "page": "videos/E007.html",
+  "article_url": ""
  }
 ]
