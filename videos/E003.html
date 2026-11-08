@@ -6,8 +6,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<title>From no tests to a passing suite in two prompts, with Claude Code · Agent Shipped</title>
-<meta name="description" content="Watch two prompts take an untested Express API from no tests to a passing node:test suite, checked against the README.">
+<title>I let Claude Code test my Express API, then ran it myself three times · Agent Shipped</title>
+<meta name="description" content="Watch one prompt take an untested Express API from zero tests to a passing node:test suite, with test count, failures and duration_ms on screen.">
 <style>
   :root { --bg:#0f1115; --fg:#e6e6e6; --muted:#9aa0a6; --accent:#7cc4ff; --card:#181b22; }
   @media (prefers-color-scheme: light) { :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#5f6368; --accent:#0b57d0; --card:#f3f4f6; } }
@@ -29,34 +29,35 @@
 <body>
 <main>
 <p class="meta"><a href="../">Agent Shipped</a> · <a href="./">All videos</a></p>
-<h1>From no tests to a passing suite in two prompts, with Claude Code</h1>
-<p class="meta">E003 · Build log · 04 Nov 2026</p>
-<div class="video long"><iframe src="https://www.youtube.com/embed/vjfrORiDoG0" title="From no tests to a passing suite in two prompts, with Claude Code" allowfullscreen loading="lazy"></iframe></div>
-<p><a href="https://youtu.be/vjfrORiDoG0">Watch on YouTube</a> · <a href="https://github.com/agentshipped/notes-api">Demo repo (notes-api)</a> · <a href="https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg">Write-up with every command and prompt</a></p>
-<div class="card"><pre>Watch two prompts take an untested Express API from no tests to a passing node:test suite, checked against the README.
+<h1>I let Claude Code test my Express API, then ran it myself three times</h1>
+<p class="meta">E003 · Build log · 08 Nov 2026</p>
+<div class="video long"><iframe src="https://www.youtube.com/embed/lSzonRoE2ok" title="I let Claude Code test my Express API, then ran it myself three times" allowfullscreen loading="lazy"></iframe></div>
+<p><a href="https://youtu.be/lSzonRoE2ok">Watch on YouTube</a> · <a href="https://github.com/agentshipped/notes-api">Demo repo (notes-api)</a> · <a href="https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg">Write-up with every command and prompt</a></p>
+<div class="card"><pre>Watch one prompt take an untested Express API from zero tests to a passing node:test suite, with test count, failures and duration_ms on screen.
 Demo repo (agentshipped/notes-api): https://github.com/agentshipped/notes-api
 
-The agent writes tests from the documented contract, not from the current code. I run the suite myself three times and decide for each failure whether the test or the code is wrong.
-The second prompt makes the agent triage every failure against the README and never weaken a test; this run had no failures, so the source diff review is the real check.
-You can copy the prompt structure (one task, named runner, README as contract, unhappy paths, acceptance command, no-weakening rule) and the source-only git diff review.
+The agent writes tests from the README contract, and I run the suite myself three times instead of trusting its summary.
+Copy the prompt structure (one task, named runner, README as contract, unhappy paths, acceptance command), the no-weakening rule and the source-only git diff review.
 Not just JavaScript: the same technique works with pytest or go test, driven by the written contract and a no-weakening rule.
 Tools: Claude Code, Node.js built-in test runner (node:test), Express, npm, git
 
 
 Chapters:
 0:00 Intro
-0:15 The untested API
-1:01 Read the store
-1:41 Read the routes
-2:24 Baseline run
-3:02 Prompt one: write tests
-3:46 First honest run
-4:29 Prompt two: the review rule
-5:20 Second run
-5:57 Review the diff
-6:45 Final measurement
-7:25 Result</pre></div>
-<div class="card"><strong>Chapters</strong><br>0:00 Intro<br>0:15 The untested API<br>1:01 Read the store<br>1:41 Read the routes<br>2:24 Baseline run<br>3:02 Prompt one: write tests<br>3:46 First honest run<br>4:29 Prompt two: the review rule<br>5:20 Second run<br>5:57 Review the diff<br>6:45 Final measurement<br>7:25 Result</div>
+0:12 The untested API
+0:52 Read the store
+1:24 Read the routes
+1:59 Baseline run
+2:18 Prompt one: write tests
+2:57 First honest run
+3:33 Prompt two: the review rule
+4:19 Second run
+4:50 Review the diff
+5:34 Final measurement
+6:08 Result
+
+Write-up with every command and prompt: https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg</pre></div>
+<div class="card"><strong>Chapters</strong><br>0:00 Intro<br>0:12 The untested API<br>0:52 Read the store<br>1:24 Read the routes<br>1:59 Baseline run<br>2:18 Prompt one: write tests<br>2:57 First honest run<br>3:33 Prompt two: the review rule<br>4:19 Second run<br>4:50 Review the diff<br>5:34 Final measurement<br>6:08 Result</div>
 <footer>Techniques from my real projects, shown on a public demo repo.<br>Narration: AI voice. The sessions, code and errors are real. Not affiliated with Anthropic or any tool vendor.<br><a href="../privacy.html">Privacy</a> · <a href="https://www.youtube.com/@AgentShipped">YouTube</a></footer>
 </main>
 </body>
