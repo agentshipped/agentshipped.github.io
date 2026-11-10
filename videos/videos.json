@@ -63,5 +63,18 @@
   "portability": "Same technique on another stack: pytest instead of node --test, and go test with Go's testing package, both driven by the written contract and a no-weakening rule.",
   "page": "videos/E003.html",
   "article_url": "https://dev.to/agentshipped/two-prompts-took-an-untested-express-api-to-a-passing-suite-1eeg"
+ },
+ {
+  "episode": "E006",
+  "video_id": "wlQU4M953iw",
+  "title": "My mocked test passed. An 18-line check found the bug #Shorts",
+  "format": "short",
+  "published": "2026-11-10",
+  "first_line": "A mocked test passed, but the dialog still opened with focus on the close button. An 18-line script catches it.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same idea with Playwright instead of jsdom, and pytest instead of node test.",
+  "page": "videos/E006.html",
+  "article_url": ""
  }
 ]
