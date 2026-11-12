@@ -76,5 +76,18 @@
   "portability": "Same idea with Playwright instead of jsdom, and pytest instead of node test.",
   "page": "videos/E006.html",
   "article_url": ""
+ },
+ {
+  "episode": "E005",
+  "video_id": "bv00hyHiYfI",
+  "title": "A mutant survived my tests. I deleted three lines, not wrote a test #Shorts",
+  "format": "short",
+  "published": "2026-11-12",
+  "first_line": "A mutant survived my tests, so I deleted three lines of code instead of writing a test.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same idea in Python with mutmut, or Java with PIT, running pytest or JUnit instead of node --test.",
+  "page": "videos/E005.html",
+  "article_url": ""
  }
 ]
