@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>My PM agent wrote no code. My first gate blocked a legal write · Agent Shipped</title>
+<meta name="description" content="A PM agent planned three tasks and wrote no code, and a PreToolUse hook blocked the one write I forced outside its scope.">
+<style>
+  :root { --bg:#0f1115; --fg:#e6e6e6; --muted:#9aa0a6; --accent:#7cc4ff; --card:#181b22; }
+  @media (prefers-color-scheme: light) { :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#5f6368; --accent:#0b57d0; --card:#f3f4f6; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:1.7rem; margin:0 0 8px; line-height:1.25; }
+  .meta, footer { color:var(--muted); font-size:.92rem; }
+  a { color:var(--accent); }
+  .video { position:relative; padding-top:56.25%; margin:20px 0; background:#000; border-radius:12px; overflow:hidden; }
+  .video.short { max-width:360px; padding-top:0; height:640px; margin-left:auto; margin-right:auto; }
+  .video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .card { background:var(--card); border-radius:12px; padding:16px 20px; margin:20px 0; }
+  ul.videos { list-style:none; padding:0; } ul.videos li { padding:12px 0; border-bottom:1px solid var(--card); }
+  .tag { display:inline-block; font-size:.8rem; padding:1px 8px; border-radius:999px; background:var(--card); color:var(--muted); margin-right:8px; }
+  pre { white-space:pre-wrap; font:inherit; margin:0; }
+  footer { margin-top:40px; }
+</style>
+</head>
+<body>
+<main>
+<p class="meta"><a href="../">Agent Shipped</a> · <a href="./">All videos</a></p>
+<h1>My PM agent wrote no code. My first gate blocked a legal write</h1>
+<p class="meta">E008 · Build log · 15 Nov 2026</p>
+<div class="video long"><iframe src="https://www.youtube.com/embed/-_t_ZsufwvU" title="My PM agent wrote no code. My first gate blocked a legal write" allowfullscreen loading="lazy"></iframe></div>
+<p><a href="https://youtu.be/-_t_ZsufwvU">Watch on YouTube</a> · <a href="https://github.com/agentshipped/agent-starter">Demo repo (agent-starter)</a> · <a href="https://dev.to/agentshipped/scope-gate-for-subagents-3-tasks-1-blocked-write-34pa">Write-up with every command and prompt</a></p>
+<div class="card"><pre>A PM agent planned three tasks and wrote no code, and a PreToolUse hook blocked the one write I forced outside its scope.
+Demo repo (agentshipped/agent-starter): https://github.com/agentshipped/agent-starter
+
+The PM writes only the plan, and each task gets a disjoint file scope that the hook checks on every Edit, Write and MultiEdit.
+My first version of the gate blocked a legal write because of absolute vs relative paths. You see the fix and the six tests.
+You can copy the plan file, the disjoint scopes, the exit-2 hook and the four-line subagent hand-back. The gate does not watch Bash yet.
+Not just JavaScript: write the gate in Python and test it with pytest, or enforce the same scope at commit time with a pre-commit hook.
+Tools: Claude Code, PreToolUse hooks, subagents, Node.js (node --test), git
+
+
+Chapters:
+0:00 Intro
+0:11 The skeleton
+0:53 Write the first gate
+1:34 First failure
+2:15 Fix the paths
+3:04 Prove the gate
+3:38 Start the clock
+4:09 PM writes the plan
+4:49 Review the plan
+5:21 Task T1
+6:02 Switch to T2
+6:34 Forced violation
+7:19 Switch to T3
+7:52 Task T3
+8:31 Measure the run
+9:08 Result</pre></div>
+<div class="card"><strong>Chapters</strong><br>0:00 Intro<br>0:11 The skeleton<br>0:53 Write the first gate<br>1:34 First failure<br>2:15 Fix the paths<br>3:04 Prove the gate<br>3:38 Start the clock<br>4:09 PM writes the plan<br>4:49 Review the plan<br>5:21 Task T1<br>6:02 Switch to T2<br>6:34 Forced violation<br>7:19 Switch to T3<br>7:52 Task T3<br>8:31 Measure the run<br>9:08 Result</div>
+<footer>Techniques from my real projects, shown on a public demo repo.<br>Narration: AI voice. The sessions, code and errors are real. Not affiliated with Anthropic or any tool vendor.<br><a href="../privacy.html">Privacy</a> · <a href="https://www.youtube.com/@AgentShipped">YouTube</a></footer>
+</main>
+</body>
+</html>
