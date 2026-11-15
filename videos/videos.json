@@ -102,5 +102,18 @@
   "portability": "Same technique in Python with pytest instead of node --test, or in Go with go test and a recorded JSON fixture.",
   "page": "videos/E004.html",
   "article_url": ""
+ },
+ {
+  "episode": "E008",
+  "video_id": "-_t_ZsufwvU",
+  "title": "My PM agent wrote no code. My first gate blocked a legal write",
+  "format": "long",
+  "published": "2026-11-15",
+  "first_line": "A PM agent planned three tasks and wrote no code, and a PreToolUse hook blocked the one write I forced outside its scope.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "Write the gate in Python and test it with pytest instead of node --test, or enforce the same scope at commit time with a pre-commit hook instead of a PreToolUse hook.",
+  "page": "videos/E008.html",
+  "article_url": "https://dev.to/agentshipped/scope-gate-for-subagents-3-tasks-1-blocked-write-34pa"
  }
 ]
