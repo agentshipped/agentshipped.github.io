@@ -89,5 +89,18 @@
   "portability": "Same idea in Python with mutmut, or Java with PIT, running pytest or JUnit instead of node --test.",
   "page": "videos/E005.html",
   "article_url": ""
+ },
+ {
+  "episode": "E004",
+  "video_id": "EfsRjxtHwpc",
+  "title": "My subagent hook read an empty field. Now a bad report exits 2 #Shorts",
+  "format": "short",
+  "published": "2026-11-14",
+  "first_line": "My subagent hook read an empty field instead of the report. The fix reads the transcript and fails closed.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "Same technique in Python with pytest instead of node --test, or in Go with go test and a recorded JSON fixture.",
+  "page": "videos/E004.html",
+  "article_url": ""
  }
 ]
