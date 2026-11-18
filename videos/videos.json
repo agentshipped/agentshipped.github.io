@@ -115,5 +115,18 @@
   "portability": "Write the gate in Python and test it with pytest instead of node --test, or enforce the same scope at commit time with a pre-commit hook instead of a PreToolUse hook.",
   "page": "videos/E008.html",
   "article_url": "https://dev.to/agentshipped/scope-gate-for-subagents-3-tasks-1-blocked-write-34pa"
+ },
+ {
+  "episode": "E009",
+  "video_id": "HWixWGz-kis",
+  "title": "My Claude Code subagent hands back 4 lines. One named a skipped case #Shorts",
+  "format": "short",
+  "published": "2026-11-17",
+  "first_line": "A Claude Code subagent finishes and hands back exactly 4 lines, and the last one names a case it skipped.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same idea with any agent framework: a fixed output template in the agent prompt, and pytest instead of node --test.",
+  "page": "videos/E009.html",
+  "article_url": ""
  }
 ]
