@@ -128,5 +128,18 @@
   "portability": "Same idea with any agent framework: a fixed output template in the agent prompt, and pytest instead of node --test.",
   "page": "videos/E009.html",
   "article_url": ""
+ },
+ {
+  "episode": "E018",
+  "video_id": "rG6am6oF8SI",
+  "title": "I let a 12-line hook deny risky commands before Claude Code asks #Shorts",
+  "format": "short",
+  "published": "2026-11-19",
+  "first_line": "A 12-line Node hook denies a risky command before Claude Code shows any permission prompt.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "The same gate works with any CLI that has permission hooks: a Python hook script instead of Node, or a shell script with jq instead of a .cjs file.",
+  "page": "videos/E018.html",
+  "article_url": ""
  }
 ]
