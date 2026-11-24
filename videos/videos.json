@@ -167,5 +167,18 @@
   "portability": "The same hook contract works in any stack: in a Python repo use python -m py_compile instead of node --check, and ruff or mypy instead of a JS linter, with the guard reading the same stdin JSON.",
   "page": "videos/E028.html",
   "article_url": "https://dev.to/agentshipped/claude-code-hooks-i-wired-5-and-2-never-fired-4ejp"
+ },
+ {
+  "episode": "E024",
+  "video_id": "_OPT2tsNkIs",
+  "title": "My agent tried a bad commit. One exit code stopped it, and it retried once #Shorts",
+  "format": "short",
+  "published": "2026-11-24",
+  "first_line": "A PreToolUse hook that exits with code 2 blocks a failing git commit, so the agent retries once instead of waiting for a review.",
+  "repo": "notes-api",
+  "demo_repo_url": "https://github.com/agentshipped/notes-api",
+  "portability": "Same technique with pytest instead of node --test, and a pre-commit hook or Husky instead of a Claude Code PreToolUse hook.",
+  "page": "videos/E024.html",
+  "article_url": ""
  }
 ]
