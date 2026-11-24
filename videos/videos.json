@@ -141,5 +141,18 @@
   "portability": "The same gate works with any CLI that has permission hooks: a Python hook script instead of Node, or a shell script with jq instead of a .cjs file.",
   "page": "videos/E018.html",
   "article_url": ""
+ },
+ {
+  "episode": "E017",
+  "video_id": "Etj_FNGDxw0",
+  "title": "I hit one .env deny rule three ways: Read, cat, grep #Shorts",
+  "format": "short",
+  "published": "2026-11-21",
+  "first_line": "One deny rule on .env, three read attempts (Read, cat, grep), and the tool line after each one is the verdict.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "Same technique with Codex CLI approval rules or Gemini CLI tool exclusions instead of Claude Code deny rules.",
+  "page": "videos/E017.html",
+  "article_url": ""
  }
 ]
