@@ -180,5 +180,18 @@
   "portability": "Same technique with pytest instead of node --test, and a pre-commit hook or Husky instead of a Claude Code PreToolUse hook.",
   "page": "videos/E024.html",
   "article_url": ""
+ },
+ {
+  "episode": "E021",
+  "video_id": "feKvqGhvgrw",
+  "title": "My .gitignore silently ate the folder my agent was about to fill #Shorts",
+  "format": "short",
+  "published": "2026-11-26",
+  "first_line": "I checked my own .gitignore with git check-ignore before the agent wrote any code, and it flagged both planned tools/ files.",
+  "repo": "agent-starter",
+  "demo_repo_url": "https://github.com/agentshipped/agent-starter",
+  "portability": "Same check in any stack: git check-ignore works anywhere, and in Python projects run it on planned paths before a pytest or build output folder swallows them.",
+  "page": "videos/E021.html",
+  "article_url": ""
  }
 ]
