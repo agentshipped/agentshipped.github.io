@@ -158,10 +158,10 @@
  {
   "episode": "E028",
   "video_id": "aR5c3T0jqvc",
-  "title": "I wired 5 Claude Code hooks on a real repo. Two never fired",
+  "title": "I wired 5 Claude Code hooks. Two never fired",
   "format": "long",
   "published": "2026-11-22",
-  "first_line": "Five Claude Code hooks on a real repo, and the two that never fired until a one-line matcher fix.",
+  "first_line": "Five Claude Code hooks, and the two that never fired until a one-line matcher fix.",
   "repo": "notes-api",
   "demo_repo_url": "https://github.com/agentshipped/notes-api",
   "portability": "The same hook contract works in any stack: in a Python repo use python -m py_compile instead of node --check, and ruff or mypy instead of a JS linter, with the guard reading the same stdin JSON.",
